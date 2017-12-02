@@ -14,8 +14,8 @@
 #				Input: The program will request for the number of such files to be processed and will 
 #						review those files one at a time
 # 
-#				Output: It will process each file and write the output data into a file  with file name format budget_summary_X 
-#						where X is the file number. 
+#				Output: It will process each file and write the output data into console and a file  with file 
+#							name format budget_summary_X where X is the file number. 
 #
 #				Example: If user requested that 2 files be process, it will look for, 
 #					a) budget_data_1.csv . Then read and process it and then write output in output folder with file name budget_summary_1.csv
