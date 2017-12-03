@@ -36,14 +36,14 @@ run = True
 
 while run == True:
 	
-	file_count = int(input("Enter number of Bank Data files to process? "))
+	file_count = int(input("Enter number of Polling data files to process? "))
 	
 	if (file_count <= 0):
 		print("You entered " + str(file_count) + ". File count needs to be greater than 0. Please re-enter a number greater than 0.")
 	else:
 		run = False
 
-# Read the Bank Data csv file one at a time and process it 
+# Read the Polling Data  csv file one at a time and process it 
 for fileNo in range(file_count):
 	
 	# Create file folder name for reading election data 
@@ -67,7 +67,7 @@ for fileNo in range(file_count):
 	concat_candidate_info = '{0}:	{1:.1f}% 	({2})\n'
 	concat_winning_candidate = '-------------------------------------------------\nWinner:	{0}\n-------------------------------------------------\n'
 
-	# Open current bank CSV file - TODO: Need to handle error if file open gives an error as the file cant be found 
+	# Open current Polling Data result CSV file - TODO: Need to handle error if file open gives an error as the file cant be found 
 	with open(voteCSV, 'r') as csvFile:
 		csvReader = csv.reader(csvFile, delimiter=',')
 		# Skip headers
@@ -113,4 +113,3 @@ for fileNo in range(file_count):
 	voteSummaryFile.write( concat_winning_candidate.format(winning_candidate) )
 	
 	voteSummaryFile.close()
-	
