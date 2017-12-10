@@ -4,12 +4,23 @@
 # City School Analysis - Written by Aruna Amaresan 
 # Date: Dec 07 - Dec 09th 2017
 # For slicing and dicing All Schools in Districts, Do School Performance Analysis Data 
+# Assumptions: For Math:    The pass mark is calculated for 60 and above 
+#              For Reading: The pass mark is calculated for 65 and above 
+# Input: The sources CSV files are expected to be kept in the raw_data folder - one for student and other for school
+# 
+# Output: 9 different reports are generated: - District Summary 
+#                                            - School Summary ( Aggregated within each School)
+#                                            - Top 5 Performing Schools by % Overall Passing Rate ( Aggregated within each School)     
+#                                            - Bottom 5 Performing Schools by % Overall Passing Rate ( Aggregated within each School)
+#                                            - Math Score (Averages) by Grade
+#                                            - Reading Score (Averages) by Grade - 9th to 12th 
+#                                            - Performances by School Spending 
+#                                            - Performances by School Size
+#                                            - Performances by School Type
 
 # Import Dependencies
 import matplotlib.pyplot as plt
 import pandas as pd
-
-
 import numpy as np
 import os 
 ```
