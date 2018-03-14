@@ -1,4 +1,4 @@
-# Unit 14 | Assignment - JavaScript and DOM Manipulation
+# UFO Sightings Data - Javscript and DOM Manipulation 
 
 ## Background
 
