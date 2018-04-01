@@ -123,8 +123,6 @@ Plotly.js was used to build interactive charts for my dashboard. The endpoitns c
   ```
   * Create a function called `optionChanged` to handle the change event when a new sample is selected (i.e. fetch data for the newly selected sample).
 
-  ![dropdown](Images/dropdown.png)
-
 * Created a PIE chart that uses data from your routes `/samples/<sample>` and `/otu` to display the top 10 samples.
 
   * Used the Sample Value as the values for the PIE chart
