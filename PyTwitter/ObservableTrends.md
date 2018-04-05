@@ -27,4 +27,4 @@ b) Tweets from the BBC news source seems to have more tweets with negative than 
 
 c) It is clearly seen that with this cursory view, the Tweet polarity if all on an average with a negative sentiment across all news agencies with BBC having the highest - This may probably be due to mroe discussion on the former Russian spy nerve agent attack and other more intense topics being covered by the news agency at this point. 
 
-(analysis/a_barplot_04-05-18-Fig2.png)
+![PYTHON-CHALLENGE/PyTwitter](analysis/a_barplot_04-05-18-Fig2.png)
