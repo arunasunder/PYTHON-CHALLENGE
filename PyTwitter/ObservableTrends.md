@@ -15,16 +15,16 @@ Notable libraries used to complete this application include:
 
 ## Findings and Observable Trends 
 
-1. The first scatterplot is showing Tweet ploarity for tweet history 
+#### The first scatterplot is showing Tweet ploarity for tweet history 
 
-  *It is clearly seen that theree is more tweets with negative polaruty than psotive polarity. You can also noticed that many of the NY times agency tweets are right at 0, which shows the general usage of more neutral langauge than words that induce a more postive or negative sentiment on the vader score. 
+1. It is clearly seen that theree is more tweets with negative polaruty than psotive polarity. You can also noticed that many of the NY times agency tweets are right at 0, which shows the general usage of more neutral langauge than words that induce a more postive or negative sentiment on the vader score. 
 
-  *Tweets from the BBC news source seems to have more tweets with negative than psotive sentiment. Also, if you look at Tweet history, in the last 20 -40 tweets, you see more lying tweents with tweet polarity of 0 or negative than postive. 
+2. Tweets from the BBC news source seems to have more tweets with negative than psotive sentiment. Also, if you look at Tweet history, in the last 20 -40 tweets, you see more lying tweents with tweet polarity of 0 or negative than postive. 
 
 ![PYTHON-CHALLENGE/PyTwitter](analysis/a_scatterplot_04-05-18-Fig1.png)
 
-2. The second figure shows a bar plot of average media sentiment for the different news agency
+#### The second figure shows a bar plot of average media sentiment for the different news agency
 
-  *It is clearly seen that with this cursory view, the Tweet polarity if all on an average with a negative sentiment across all news agencies with BBC having the highest - This may probably be due to mroe discussion on the former Russian spy nerve agent attack and other more intense topics being covered by the news agency at this point. 
+3. It is clearly seen that with this cursory view, the Tweet polarity if all on an average with a negative sentiment across all news agencies with BBC having the highest - This may probably be due to mroe discussion on the former Russian spy nerve agent attack and other more intense topics being covered by the news agency at this point. 
 
 ![PYTHON-CHALLENGE/PyTwitter](analysis/a_barplot_04-05-18-Fig2.png)
