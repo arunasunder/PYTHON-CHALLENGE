@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Earthquake activity - Visualizations for the last one week</title>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Leaflet Timeline CSS -->
+  <link rel="stylesheet" type="text/css" href="leaflet.timeline.min.css">
+</head>
+<body>
+
+  <div class="jumbotron">
+    <h2>Visualize Earthquake activity for the past one week</h2>
+    <p>This data has been obtained from <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">USGS Website</a> Click the play button at the bottom to see seismic activity that is happenning in the last one week. The legend on the right gives options to overlay different maps with options to select datasets vs tectonic plate display. </p>
+  </div>
+
+  <!-- The div that holds our map -->
+  <div id="map"></div> 
+  </div>
+
+  <!-- The div that holds our map -->
+  <div id="mapid"></div>
+
+  <!--Footer-->
+  <footer class="page-footer center-on-small-only stylish-color-dark">
+  <!--Copyright-->
+  <div class="footer-copyright">
+  <div class="container-fluid">
+      <p style="text-align: center;">
+      © Earthquake Visualizer 2018. All Rights Reserved
+      </p>
+  </div>
+  </div>
+
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <!-- D3 JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="logic.js"></script>
+  <!-- Leaflet Timeline JavaScript -->
+  <script type="text/javascript" src="leaflet.timeline.js"></script>
+</body>
+</html>
